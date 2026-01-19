@@ -1,0 +1,15 @@
+packages:
+  - app/core
+  - app/domains/*
+  - app/libs/*
+
+catalog:
+  '@tanstack/react-query': ^5.90.19
+  '@tanstack/react-query-devtools': ^5.90.19
+  '@tanstack/react-router': ^1.151.6
+  '@tanstack/router-core': ^1.151.6
+  '@tanstack/react-router-devtools': ^1.151.6
+  '@tanstack/router-plugin': ^1.151.6
+  '@tanstack/virtual-file-routes': ^1.145.4
+  typescript: ^5.9.3
+  vite: ^7.3.1

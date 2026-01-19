@@ -1,0 +1,36 @@
+.env
+coverage
+node_modules
+npm-debug.log
+*.retry
+.terraform/
+tsconfig.tsbuildinfo
+terraform.tfstate*
+*tfvars
+*.DS_Store
+*.plan
+dist
+build
+.env.local
+.next
+
+# ide
+.idea
+.vscode
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# turbo
+.turbo
+schema.graphql
+**generated**
+
+# typescript
+dist/
+.cache
+
+# turbo
+.turbo

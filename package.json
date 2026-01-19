@@ -1,0 +1,25 @@
+{
+  "name": "tanstack-router-virtual-routes-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "dependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "prettier": "3.8.0",
+    "turbo": "^2.7.5"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.9",
+    "typescript": "catalog:"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint:types": "turbo run typecheck"
+  },
+  "packageManager": "pnpm@10.17.0"
+}

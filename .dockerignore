@@ -1,0 +1,16 @@
+coverage
+node_modules
+npm-debug.log
+.git
+.env
+*.retry
+.terraform/
+terraform.tfstate*
+*tfvars
+*.DS_Store
+*.plan
+dist
+datadog-secret.env
+.cache/
+.next/
+build/

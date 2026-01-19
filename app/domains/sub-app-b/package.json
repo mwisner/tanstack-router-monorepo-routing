@@ -1,0 +1,25 @@
+{
+  "name": "@tsvrm/sub-app-b",
+  "private": true,
+  "type": "module",
+  "sideEffects": false,
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@tanstack/react-router": "catalog:",
+    "@tsvrm/types": "workspace:*",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.8",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^5.9.3"
+  },
+  "exports": {
+    "./routes": "./src/routes",
+    "./routes/*": "./src/routes/*",
+    "./package.json": "./package.json"
+  }
+}
