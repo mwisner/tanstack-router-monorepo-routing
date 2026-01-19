@@ -7,15 +7,15 @@ export const routes = rootRoute("__root.tsx", [
   // The alias @sub-app-a is defined in tsconfig.json and vite.config.ts
 
   // Doesn't work
-  //physical("/sub-app-a", "@sub-app-a/routes"),
+  physical("/sub-app-a", "@sub-app-a/routes"),
   // This works
-  physical("/sub-app-a", "../sub-app-a/routes"),
+  //physical("/sub-app-a", "../sub-app-a/routes"),
 
   // Sub-App-B: Physical mount using workspace package (triggers bug #4984)
   // doesn't work
-  //physical("/sub-app-b", "@tsvrm/sub-app-b/routes"),
+  physical("/sub-app-b", "@tsvrm/sub-app-b/routes"),
 
   // Works
-  physical("/sub-app-b", "../../node_modules/@tsvrm/sub-app-b/src/routes"),
+  //physical("/sub-app-b", "../../node_modules/@tsvrm/sub-app-b/src/routes"),
 
 ]);
